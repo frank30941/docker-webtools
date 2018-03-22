@@ -51,7 +51,7 @@ X -- http://localhost:8080 --- B
 
 ### 步驟2
 1. 安裝完 VcXsrv 後，直接點擊運行
-2. 工作列右邊有VcXsrv小圖案及是啟動完成
+2. 工作列右邊有 VcXsrv 小圖案及是啟動完成
 * ![Imgur](https://i.imgur.com/KSJFpF9.png)
 
 ### 步驟3
@@ -101,6 +101,12 @@ sudo apache2-foreground & //於後台啟動 apache
 # 備註
 - vscode 開啟終端機快捷鍵  `` Ctrl + ` ``
 - 虛擬CUI 開啟中文輸入法   ` Shift + space `
+- 要停止運作的話，和步驟5一樣，但請輸入
+#### 指令:
+```shell
+docker-compose stop //暫停運作，會保留容器
+docker-compose down //結束運作，會刪除容器
+``` 
 - 開發環境資訊:
 * ![Imgur](https://i.imgur.com/icEgJA4.png)
 ## 參考
