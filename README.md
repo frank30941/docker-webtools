@@ -15,6 +15,26 @@ X -- http://localhost:80 --- A
 X -- http://localhost:8080 --- B
 ```-->
 
+## 資料夾結構
+```
+/docker-webtools
+│README.md
+│docker-compose.yml
+|
+└───/db
+│   │{ creat databace by your sqlfile or empty }
+│   
+└───/html
+|   │{your php project}
+|   └───/.vscode
+|       |{configfile}
+|
+└───/phpmyadmin
+	└───/session
+    	| {tmpfile}
+        |
+```
+
 ## 準備工具:
 - docker: >=17.09.1( Docker for Windows OR Docker for Mac )
 - docker images: frank30941/docker-webtools:latest、mariadb:latest、phpmyadmin/phpmyadmin:latest
