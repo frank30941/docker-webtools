@@ -109,6 +109,8 @@ docker-compose down #結束運作，會刪除容器
 ``` 
 - 開發環境資訊:
 * ![Imgur](https://i.imgur.com/icEgJA4.png)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/4G4ZVbLVres/0.jpg)](https://www.youtube.com/watch?v=4G4ZVbLVres&feature=youtu.be)
+
 ## 參考
 - [vscode-php-debug](https://github.com/felixfbecker/vscode-php-debug"https://github.com/felixfbecker/vscode-php-debug") 
 - [setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v](https://medium.com/@sbuckpesch/setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v-9c385dd732c9"https://medium.com/@sbuckpesch/setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v-9c385dd732c9") 
