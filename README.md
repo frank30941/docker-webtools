@@ -31,8 +31,8 @@ X -- http://localhost:8080 --- B
 |
 └───/phpmyadmin
 	└───/session
-    	| {tmpfile}
-        |
+    	    | {tmpfile}
+            |
 ```
 
 ## 準備工具:
