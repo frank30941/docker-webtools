@@ -60,7 +60,7 @@ X -- http://localhost:8080 --- B
 
 ### 步驟4 (是 windows 的可跳過)
 1. 點開編輯 ./docker-webtools/docker-compose.yml
-2. <span style="color:red"> **重點在這!!** **重點在這!!** **重點在這!!** **很重要所以說三次!!** </span> 請依你的本機系統來選擇，預設是 Windows
+2. 請依本機系統來選擇，預設是 Windows
 ```yml
   xdebug:
     image: frank30941/webtools:latest
