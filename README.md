@@ -110,8 +110,9 @@ docker-compose down #結束運作，會刪除容器
 - 開發環境資訊:
 * ![Imgur](https://i.imgur.com/icEgJA4.png)
 ## 參考
-- [https://github.com/felixfbecker/vscode-php-debug](https://github.com/felixfbecker/vscode-php-debug"https://github.com/felixfbecker/vscode-php-debug") 
-- [https://medium.com/@sbuckpesch/setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v-9c385dd732c9](https://medium.com/@sbuckpesch/setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v-9c385dd732c9"https://medium.com/@sbuckpesch/setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v-9c385dd732c9") 
-- [https://docs.docker.com/docker-for-windows/release-notes/](https://docs.docker.com/docker-for-windows/release-notes/"https://docs.docker.com/docker-for-windows/release-notes/") 
-- [https://github.com/jessfraz/dockerfiles/tree/master/vscode](https://github.com/jessfraz/dockerfiles/tree/master/vscode"https://github.com/jessfraz/dockerfiles/tree/master/vscode")
--  [https://code.visualstudio.com/docs/getstarted/keybindings](https://code.visualstudio.com/docs/getstarted/keybindings"https://code.visualstudio.com/docs/getstarted/keybindings")
+- [vscode-php-debug](https://github.com/felixfbecker/vscode-php-debug"https://github.com/felixfbecker/vscode-php-debug") 
+- [setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v](https://medium.com/@sbuckpesch/setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v-9c385dd732c9"https://medium.com/@sbuckpesch/setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v-9c385dd732c9") 
+- [docker-for-windows release-notes](https://docs.docker.com/docker-for-windows/release-notes/"https://docs.docker.com/docker-for-windows/release-notes/") 
+- [jess/vscode](https://github.com/jessfraz/dockerfiles/tree/master/vscode"https://github.com/jessfraz/dockerfiles/tree/master/vscode")
+-  [vscode getstarted keybindings](https://code.visualstudio.com/docs/getstarted/keybindings"https://code.visualstudio.com/docs/getstarted/keybindings")
+- [docker hub php](https://hub.docker.com/_/php/"https://hub.docker.com/_/php/")
