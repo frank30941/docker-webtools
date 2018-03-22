@@ -109,6 +109,8 @@ docker-compose down #結束運作，會刪除容器
 ``` 
 - 開發環境資訊:
 * ![Imgur](https://i.imgur.com/icEgJA4.png)
+
+## Video
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/4G4ZVbLVres/0.jpg)](https://www.youtube.com/watch?v=4G4ZVbLVres&feature=youtu.be)
 
 ## 參考
