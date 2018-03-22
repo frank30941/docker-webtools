@@ -3,7 +3,7 @@ version: '3.1'
 services:
 
   # Application container
-  xdebug:
+  webtools:
     image: frank30941/webtools:latest
     ports:
       - "80:80"
@@ -34,6 +34,7 @@ services:
       MYSQL_PASSWORD: "password"
 #      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
 
+  #Database manager container.
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     environment:
