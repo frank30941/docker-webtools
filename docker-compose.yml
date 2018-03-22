@@ -8,8 +8,6 @@ services:
     ports:
       - "80:80"
     restart: always
-#    expose:
-#      - "9000"
     environment:
       DISPLAY: docker.for.win.localhost:0.0
 #      DISPLAY: docker.for.mac.localhost:0
