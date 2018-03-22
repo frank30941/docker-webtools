@@ -5,7 +5,7 @@ The lamp and vscode editor on docker.
 ## 主題: 集成 LAMP 與 vscode editor 開發環境於 docker
 
 ## 關聯圖
-![](https://imgur.com/Hdz9dVT.png)
+![Imgur](https://i.mgur.com/Hdz9dVT.png)
 <!-- ```mermaid
 graph TD
 X[main OS] -- X Window --- A(Container: apache, php, xdebug, vscode)
@@ -45,14 +45,14 @@ X -- http://localhost:8080 --- B
 
 ### 步驟1
 1. 滑鼠右鍵工作列右邊的鯨魚小圖案 docker->settings->Shares Drives
-* ![](https://imgur.com/jeCjTZ6.png) 
+* ![Imgur](https://i.mgur.com/KMActoG.png) 
 2. 選擇給 docker volumes 存放的硬碟
-* ![](https://imgur.com/nQZMqoZ.png)
+* ![Imgur](https://i.imgur.com/tHjnaBG.png)
 
 ### 步驟2
 1. 安裝完 VcXsrv 後，直接點擊運行
 2. 工作列右邊有VcXsrv小圖案及是啟動完成
-* ![](https://imgur.com/KSJFpF9.png)
+* ![Imgur](https://i.mgur.com/KSJFpF9.png)
 
 ### 步驟3
 1. 將 docker-webtools clone 到本機端，以VSCODE開啟 docker-xdebug 目錄資料夾
@@ -76,7 +76,7 @@ X -- http://localhost:8080 --- B
 1. 開啟終端機
 - Windows: cmd or PowerShell
 - Mac: Terminal
-* ![](https://imgur.com/9zd7qFx.png)
+* ![Imgur](https://imgur.com/9zd7qFx.png)
 #### 指令:
 ```shell
 cd /***/***/***/docker-webtools/
@@ -92,15 +92,17 @@ docker-compose up -d
 ```shell
 sudo apache2-foreground & //於後台啟動 apache
 ``` 
+* ![Imgur](https://i.imgur.com/sly1No6.png)
 3. 點擊左上邊的綠色箭頭，開始監聽~
 4. 開啟本機上的瀏覽器，進入網頁 [http://localhost/](http://localhost/ "http://localhost/")
-
+* ![Imgur](https://i.imgur.com/67uKHIq.png)
 # 5. 開始除蟲啦~~~
- 
+* ![Imgur](https://i.imgur.com/S3qleX4.png)
 # 備註
 - vscode 開啟終端機快捷鍵  `` Ctrl + ` ``
 - 虛擬CUI 開啟中文輸入法   ` Shift + space `
-
+- 開發環境資訊:
+* ![Imgur](https://i.imgur.com/icEgJA4.png)
 ## 參考
 - [https://github.com/felixfbecker/vscode-php-debug](https://github.com/felixfbecker/vscode-php-debug"https://github.com/felixfbecker/vscode-php-debug") 
 - [https://medium.com/@sbuckpesch/setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v-9c385dd732c9](https://medium.com/@sbuckpesch/setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v-9c385dd732c9"https://medium.com/@sbuckpesch/setup-xdebug-on-phpstorm-and-visual-studio-code-using-docker-on-windows-hyper-v-9c385dd732c9") 
