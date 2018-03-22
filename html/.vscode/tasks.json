@@ -1,0 +1,13 @@
+{
+    "version": "0.1.0",
+    "command": "chrome",
+    "linux": {
+        "command": "google-chrome"
+    },
+    "args": [
+        "--no-sandbox",
+        "--no-first-run",
+        //"--disable-web-security",
+        "http://localhost/"
+    ]
+}

@@ -1,0 +1,56 @@
+version: '3.1'
+
+services:
+
+  # Application container
+  xdebug:
+    image: frank30941/webtools:latest
+    ports:
+      - "80:80"
+    restart: always
+#    expose:
+#      - "9000"
+    environment:
+      DISPLAY: docker.for.win.localhost:0.0
+#      DISPLAY: docker.for.mac.localhost:0
+    volumes:
+      - ./html:/var/www/html:rw
+#      - modules_node:/var/www/html/public/node_modules
+#      - modules_composer:/var/www/html/public/vendor
+#      - modules_bower:/var/www/html/public/js/bower_component
+    depends_on:
+      - mariadb
+
+  # Database container incl. init script for local development
+  mariadb:
+    image: mariadb:latest
+    ports:
+      - "3306:3306"
+    restart: always
+    volumes:
+      - mariadb-data:/var/lib/mysql
+      - ./db:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "password"
+#      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_HOST=mariadb
+#      - PMA_USER=user
+#      - PMA_PASSWORD=password
+    depends_on:
+      - mariadb
+    ports:
+      - 8080:80
+    volumes:
+      - "./phpmyadmin/sessions:/sessions"
+
+volumes:
+  mariadb-data:
+#  modules_node:
+#  modules_composer:
+#  modules_bower:
