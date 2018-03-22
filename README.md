@@ -22,7 +22,7 @@ X -- http://localhost:8080 --- B
 │docker-compose.yml
 |
 └───/db
-│   │{ creat databace by your sqlfile or empty }
+│   │{ creat database by your sqlfile or empty }
 │   
 └───/html
 |   │{your php project}
