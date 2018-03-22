@@ -90,7 +90,7 @@ docker-compose up -d
 
 #### 指令:
 ```shell
-sudo apache2-foreground & //於後台啟動 apache
+sudo apache2-foreground & #於後台啟動 apache
 ``` 
 * ![Imgur](https://i.imgur.com/sly1No6.png)
 3. 點擊左上邊的綠色箭頭，開始監聽~
@@ -104,8 +104,8 @@ sudo apache2-foreground & //於後台啟動 apache
 - 要停止運作的話，和步驟5一樣，但請輸入
 #### 指令:
 ```shell
-docker-compose stop //暫停運作，會保留容器
-docker-compose down //結束運作，會刪除容器
+docker-compose stop #暫停運作，會保留容器
+docker-compose down #結束運作，會刪除容器
 ``` 
 - 開發環境資訊:
 * ![Imgur](https://i.imgur.com/icEgJA4.png)
