@@ -76,7 +76,7 @@ X -- http://localhost:8080 --- B
 1. 開啟終端機
 - Windows: cmd or PowerShell
 - Mac: Terminal
-
+* ![](https://imgur.com/9zd7qFx.png)
 #### 指令:
 ```shell
 cd /***/***/***/docker-webtools/
