@@ -4,6 +4,17 @@ The lamp and vscode editor on docker.
 
 ## 主題: 集成 LAMP 與 vscode editor 開發環境於 docker
 
+## 關聯圖
+![](https://i.imgur.com/Hdz9dVT.png)
+<!-- ```mermaid
+graph TD
+X[main OS] -- X Window --- A(Container: apache, php, xdebug, vscode)
+A --- C(Container:mariadb, HOST:mariadb)
+B(Container:phpmyadmin) --- C
+X -- http://localhost:80 --- A
+X -- http://localhost:8080 --- B
+```-->
+
 ## 準備工具:
 - docker: >=17.09.1( Docker for Windows OR Docker for Mac )
 - docker images: frank30941/docker-webtools:latest、mariadb:latest、phpmyadmin/phpmyadmin:latest
