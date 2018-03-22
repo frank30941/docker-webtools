@@ -5,7 +5,7 @@ The lamp and vscode editor on docker.
 ## 主題: 集成 LAMP 與 vscode editor 開發環境於 docker
 
 ## 關聯圖
-![](https://i.imgur.com/Hdz9dVT.png)
+![](https://imgur.com/Hdz9dVT.png)
 <!-- ```mermaid
 graph TD
 X[main OS] -- X Window --- A(Container: apache, php, xdebug, vscode)
@@ -45,7 +45,10 @@ X -- http://localhost:8080 --- B
 
 ### 步驟1
 1. 滑鼠右鍵工作列右邊的鯨魚小圖案 docker->settings->Shares Drives
+* ![](https://imgur.com/jeCjTZ6.png) 
+* ![](https://imgur.com/nQZMqoZ.png)
 2. 選擇給 docker volumes 存放的硬碟
+* ![](https://imgur.com/KSJFpF9.png)
 
 ### 步驟2
 1. 安裝完 VcXsrv 後，直接點擊運行
