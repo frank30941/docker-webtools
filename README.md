@@ -93,7 +93,7 @@ docker-compose up -d
 sudo apache2-foreground & #於後台啟動 apache
 ``` 
 * ![Imgur](https://i.imgur.com/sly1No6.png)
-3. 點擊左上邊的綠色箭頭，開始監聽~
+3. 點擊左側臭蟲圖示之後顯示 debug 模式，再點擊左上邊的綠色箭頭，開始監聽~
 4. 開啟本機上的瀏覽器，進入網頁 [http://localhost/](http://localhost/ "http://localhost/")
 * ![Imgur](https://i.imgur.com/67uKHIq.png)
 # 5. 開始除蟲啦~~~
