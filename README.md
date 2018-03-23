@@ -38,7 +38,7 @@ X -- http://localhost:8080 --- B
 ## 準備工具:
 - docker: >=17.09.1( Docker for Windows OR Docker for Mac )
 - docker images: frank30941/docker-webtools:latest、mariadb:latest、phpmyadmin/phpmyadmin:latest
-- X window: VcXsrv
+- X window: VcXsrv(Windows)、XQuartz(Mac)
 - OS: Windows10( Hyper-V ) or Mac 都可
 
 ## 設定:
@@ -50,9 +50,13 @@ X -- http://localhost:8080 --- B
 * ![Imgur](https://i.imgur.com/tHjnaBG.png)
 
 ### 步驟2
+#### Windows 10
 1. 安裝完 VcXsrv 後，直接點擊運行
 2. 工作列右邊有 VcXsrv 小圖案及是啟動完成
 * ![Imgur](https://i.imgur.com/KSJFpF9.png)
+
+#### Mac
+1. 安裝完 XQuartz 後，直接點擊運行
 
 ### 步驟3
 1. 將 docker-webtools clone 到本機端，以VSCODE開啟 docker-xdebug 目錄資料夾
